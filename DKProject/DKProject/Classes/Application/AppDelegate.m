@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AppCoreService.h"
+#import "AppPushService.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self loadWindow];
+    
     return YES;
 }
 

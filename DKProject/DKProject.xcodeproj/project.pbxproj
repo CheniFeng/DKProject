@@ -8,13 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		005964B6885F4BA30B179A15 /* libPods-DKProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C25702FFD496F0295E4E811B /* libPods-DKProject.a */; };
+		1B89A972212F1C2B00503858 /* DKUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A971212F1C2B00503858 /* DKUserManager.m */; };
+		1B89A975212F1D2800503858 /* DKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A974212F1D2800503858 /* DKUserModel.m */; };
+		1B89A978212F208300503858 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A977212F208300503858 /* LoginViewController.m */; };
+		1B89A97B212F20DF00503858 /* DKLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A97A212F20DF00503858 /* DKLoginRequest.m */; };
+		1B89A97D212F23D900503858 /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B89A97C212F23D900503858 /* Login.xcassets */; };
+		1B89A97F212F23EA00503858 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B89A97E212F23EA00503858 /* Login.storyboard */; };
+		1B89A982212F257000503858 /* DKHomeInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A981212F257000503858 /* DKHomeInfoModel.m */; };
+		1B89A987212F25A500503858 /* Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B89A986212F25A500503858 /* Home.xcassets */; };
+		1B89A989212F25B200503858 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B89A988212F25B200503858 /* Home.storyboard */; };
+		1B89A98C212F25CC00503858 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A98B212F25CC00503858 /* HomeViewController.m */; };
+		1B89A98F212F264300503858 /* DKHomeInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A98E212F264300503858 /* DKHomeInfoRequest.m */; };
 		1BDAC0D5212EC46F0034C82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC0D4212EC46F0034C82E /* AppDelegate.m */; };
 		1BDAC0E0212EC46F0034C82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */; };
 		1BDAC0E3212EC46F0034C82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC0E2212EC46F0034C82E /* main.m */; };
 		1BDAC0F3212EE7060034C82E /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0F2212EE7060034C82E /* Public.xcassets */; };
+		1BDAC128212EF4CC0034C82E /* AppCoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC127212EF4CC0034C82E /* AppCoreService.m */; };
+		1BDAC12B212EF5410034C82E /* AppPushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC12A212EF5410034C82E /* AppPushService.m */; };
+		1BDAC12E212EF8040034C82E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC12D212EF8040034C82E /* BaseViewController.m */; };
+		1BDAC131212EF8880034C82E /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC130212EF8880034C82E /* BaseTabBarController.m */; };
+		1BDAC134212EF8F20034C82E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC133212EF8F20034C82E /* BaseNavigationController.m */; };
+		1BDAC137212EF91B0034C82E /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC136212EF91B0034C82E /* BaseWebViewController.m */; };
+		1BDAC13A212EFEFB0034C82E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC139212EFEFB0034C82E /* BaseModel.m */; };
+		1BDAC13D212F02B50034C82E /* RequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC13C212F02B50034C82E /* RequestService.m */; };
+		1BDAC144212F0C680034C82E /* DKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC143212F0C680034C82E /* DKNetwork.m */; };
+		1BDAC147212F0E510034C82E /* DKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC146212F0E510034C82E /* DKNetworkConfig.m */; };
+		1BDAC14A212F114A0034C82E /* DKNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC149212F114A0034C82E /* DKNotification.m */; };
+		1BDAC155212F14660034C82E /* DKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC154212F14660034C82E /* DKHelper.m */; };
+		1BDAC158212F16ED0034C82E /* DKCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC157212F16ED0034C82E /* DKCryptor.m */; };
+		1BDAC15B212F17EA0034C82E /* DKEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC15A212F17EA0034C82E /* DKEncryptTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3B88BA212F19BD00B952E2 /* DKProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKProject.pch; sourceTree = "<group>"; };
+		1B89A970212F1C2B00503858 /* DKUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKUserManager.h; sourceTree = "<group>"; };
+		1B89A971212F1C2B00503858 /* DKUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKUserManager.m; sourceTree = "<group>"; };
+		1B89A973212F1D2800503858 /* DKUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKUserModel.h; sourceTree = "<group>"; };
+		1B89A974212F1D2800503858 /* DKUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKUserModel.m; sourceTree = "<group>"; };
+		1B89A976212F208300503858 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1B89A977212F208300503858 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1B89A979212F20DF00503858 /* DKLoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKLoginRequest.h; sourceTree = "<group>"; };
+		1B89A97A212F20DF00503858 /* DKLoginRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKLoginRequest.m; sourceTree = "<group>"; };
+		1B89A97C212F23D900503858 /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Login.xcassets; sourceTree = "<group>"; };
+		1B89A97E212F23EA00503858 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1B89A980212F257000503858 /* DKHomeInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKHomeInfoModel.h; sourceTree = "<group>"; };
+		1B89A981212F257000503858 /* DKHomeInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKHomeInfoModel.m; sourceTree = "<group>"; };
+		1B89A986212F25A500503858 /* Home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Home.xcassets; sourceTree = "<group>"; };
+		1B89A988212F25B200503858 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1B89A98A212F25CC00503858 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1B89A98B212F25CC00503858 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1B89A98D212F264300503858 /* DKHomeInfoRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKHomeInfoRequest.h; sourceTree = "<group>"; };
+		1B89A98E212F264300503858 /* DKHomeInfoRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKHomeInfoRequest.m; sourceTree = "<group>"; };
 		1BDAC0D0212EC46F0034C82E /* DKProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDAC0D3212EC46F0034C82E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BDAC0D4212EC46F0034C82E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -22,6 +66,38 @@
 		1BDAC0E1212EC46F0034C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDAC0E2212EC46F0034C82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BDAC0F2212EE7060034C82E /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
+		1BDAC126212EF4CC0034C82E /* AppCoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoreService.h; sourceTree = "<group>"; };
+		1BDAC127212EF4CC0034C82E /* AppCoreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoreService.m; sourceTree = "<group>"; };
+		1BDAC129212EF5410034C82E /* AppPushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppPushService.h; sourceTree = "<group>"; };
+		1BDAC12A212EF5410034C82E /* AppPushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppPushService.m; sourceTree = "<group>"; };
+		1BDAC12C212EF8040034C82E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1BDAC12D212EF8040034C82E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1BDAC12F212EF8880034C82E /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		1BDAC130212EF8880034C82E /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		1BDAC132212EF8F20034C82E /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1BDAC133212EF8F20034C82E /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		1BDAC135212EF91B0034C82E /* BaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		1BDAC136212EF91B0034C82E /* BaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		1BDAC138212EFEFB0034C82E /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		1BDAC139212EFEFB0034C82E /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		1BDAC13B212F02B50034C82E /* RequestService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestService.h; sourceTree = "<group>"; };
+		1BDAC13C212F02B50034C82E /* RequestService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestService.m; sourceTree = "<group>"; };
+		1BDAC13E212F07130034C82E /* DKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKRequest.h; sourceTree = "<group>"; };
+		1BDAC142212F0C680034C82E /* DKNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNetwork.h; sourceTree = "<group>"; };
+		1BDAC143212F0C680034C82E /* DKNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNetwork.m; sourceTree = "<group>"; };
+		1BDAC145212F0E510034C82E /* DKNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNetworkConfig.h; sourceTree = "<group>"; };
+		1BDAC146212F0E510034C82E /* DKNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNetworkConfig.m; sourceTree = "<group>"; };
+		1BDAC148212F114A0034C82E /* DKNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNotification.h; sourceTree = "<group>"; };
+		1BDAC149212F114A0034C82E /* DKNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNotification.m; sourceTree = "<group>"; };
+		1BDAC14E212F12D40034C82E /* DKPublicMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKPublicMacros.h; sourceTree = "<group>"; };
+		1BDAC152212F14060034C82E /* DKDisplayMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKDisplayMacros.h; sourceTree = "<group>"; };
+		1BDAC153212F14660034C82E /* DKHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKHelper.h; sourceTree = "<group>"; };
+		1BDAC154212F14660034C82E /* DKHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKHelper.m; sourceTree = "<group>"; };
+		1BDAC156212F16ED0034C82E /* DKCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCryptor.h; sourceTree = "<group>"; };
+		1BDAC157212F16ED0034C82E /* DKCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCryptor.m; sourceTree = "<group>"; };
+		1BDAC159212F17EA0034C82E /* DKEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKEncryptTool.h; sourceTree = "<group>"; };
+		1BDAC15A212F17EA0034C82E /* DKEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKEncryptTool.m; sourceTree = "<group>"; };
+		1BDAC15C212F18B80034C82E /* DKExpands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKExpands.h; sourceTree = "<group>"; };
 		2B562970BC752ACC6E275954 /* Pods-DKProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKProject/Pods-DKProject.release.xcconfig"; sourceTree = "<group>"; };
 		6FAAABE7C603B44BDEF2733D /* Pods-DKProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKProject/Pods-DKProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C25702FFD496F0295E4E811B /* libPods-DKProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +138,7 @@
 			children = (
 				1BDAC0E9212EE4C20034C82E /* Classes */,
 				1BDAC0EA212EE4DB0034C82E /* Resources */,
-				1BDAC0E1212EC46F0034C82E /* Info.plist */,
-				1BDAC0E2212EC46F0034C82E /* main.m */,
+				1BDAC15D212F19410034C82E /* Supporting Files */,
 			);
 			path = DKProject;
 			sourceTree = "<group>";
@@ -99,6 +174,10 @@
 			children = (
 				1BDAC0D3212EC46F0034C82E /* AppDelegate.h */,
 				1BDAC0D4212EC46F0034C82E /* AppDelegate.m */,
+				1BDAC126212EF4CC0034C82E /* AppCoreService.h */,
+				1BDAC127212EF4CC0034C82E /* AppCoreService.m */,
+				1BDAC129212EF5410034C82E /* AppPushService.h */,
+				1BDAC12A212EF5410034C82E /* AppPushService.m */,
 				1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */,
 			);
 			path = Application;
@@ -161,6 +240,14 @@
 		1BDAC0F5212EE7BB0034C82E /* BaseControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC12C212EF8040034C82E /* BaseViewController.h */,
+				1BDAC12D212EF8040034C82E /* BaseViewController.m */,
+				1BDAC135212EF91B0034C82E /* BaseWebViewController.h */,
+				1BDAC136212EF91B0034C82E /* BaseWebViewController.m */,
+				1BDAC12F212EF8880034C82E /* BaseTabBarController.h */,
+				1BDAC130212EF8880034C82E /* BaseTabBarController.m */,
+				1BDAC132212EF8F20034C82E /* BaseNavigationController.h */,
+				1BDAC133212EF8F20034C82E /* BaseNavigationController.m */,
 			);
 			path = BaseControllers;
 			sourceTree = "<group>";
@@ -175,6 +262,8 @@
 		1BDAC0F7212EE7EB0034C82E /* BaseModels */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC138212EFEFB0034C82E /* BaseModel.h */,
+				1BDAC139212EFEFB0034C82E /* BaseModel.m */,
 			);
 			path = BaseModels;
 			sourceTree = "<group>";
@@ -182,6 +271,9 @@
 		1BDAC0F8212EE80D0034C82E /* BaseServices */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC13E212F07130034C82E /* DKRequest.h */,
+				1BDAC13B212F02B50034C82E /* RequestService.h */,
+				1BDAC13C212F02B50034C82E /* RequestService.m */,
 			);
 			path = BaseServices;
 			sourceTree = "<group>";
@@ -189,9 +281,9 @@
 		1BDAC0F9212EE8510034C82E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1BDAC0FC212EE8810034C82E /* Public */,
 				1BDAC0FB212EE87A0034C82E /* Login */,
 				1BDAC0FA212EE8700034C82E /* Home */,
+				1BDAC0FC212EE8810034C82E /* Public */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -270,6 +362,8 @@
 		1BDAC10F212EE9600034C82E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A976212F208300503858 /* LoginViewController.h */,
+				1B89A977212F208300503858 /* LoginViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -284,6 +378,8 @@
 		1BDAC111212EE9600034C82E /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A97E212F23EA00503858 /* Login.storyboard */,
+				1B89A97C212F23D900503858 /* Login.xcassets */,
 			);
 			path = Resouces;
 			sourceTree = "<group>";
@@ -291,6 +387,8 @@
 		1BDAC113212EE9600034C82E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A973212F1D2800503858 /* DKUserModel.h */,
+				1B89A974212F1D2800503858 /* DKUserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,6 +396,8 @@
 		1BDAC114212EE9600034C82E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A979212F20DF00503858 /* DKLoginRequest.h */,
+				1B89A97A212F20DF00503858 /* DKLoginRequest.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -305,6 +405,8 @@
 		1BDAC115212EE9930034C82E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A98D212F264300503858 /* DKHomeInfoRequest.h */,
+				1B89A98E212F264300503858 /* DKHomeInfoRequest.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -312,6 +414,8 @@
 		1BDAC117212EE9930034C82E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A980212F257000503858 /* DKHomeInfoModel.h */,
+				1B89A981212F257000503858 /* DKHomeInfoModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -319,6 +423,8 @@
 		1BDAC118212EE9930034C82E /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A988212F25B200503858 /* Home.storyboard */,
+				1B89A986212F25A500503858 /* Home.xcassets */,
 			);
 			path = Resouces;
 			sourceTree = "<group>";
@@ -326,6 +432,8 @@
 		1BDAC119212EE9930034C82E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A98A212F25CC00503858 /* HomeViewController.h */,
+				1B89A98B212F25CC00503858 /* HomeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -340,6 +448,8 @@
 		1BDAC11B212EE9BA0034C82E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				1B89A970212F1C2B00503858 /* DKUserManager.h */,
+				1B89A971212F1C2B00503858 /* DKUserManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -362,6 +472,9 @@
 		1BDAC11D212EEA080034C82E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC153212F14660034C82E /* DKHelper.h */,
+				1BDAC154212F14660034C82E /* DKHelper.m */,
+				1BDAC15C212F18B80034C82E /* DKExpands.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -383,6 +496,10 @@
 		1BDAC120212EEA540034C82E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC156212F16ED0034C82E /* DKCryptor.h */,
+				1BDAC157212F16ED0034C82E /* DKCryptor.m */,
+				1BDAC159212F17EA0034C82E /* DKEncryptTool.h */,
+				1BDAC15A212F17EA0034C82E /* DKEncryptTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -390,6 +507,8 @@
 		1BDAC121212EEA5F0034C82E /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC14E212F12D40034C82E /* DKPublicMacros.h */,
+				1BDAC152212F14060034C82E /* DKDisplayMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -397,6 +516,10 @@
 		1BDAC122212EEA710034C82E /* Consts */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC148212F114A0034C82E /* DKNotification.h */,
+				1BDAC149212F114A0034C82E /* DKNotification.m */,
+				1BDAC145212F0E510034C82E /* DKNetworkConfig.h */,
+				1BDAC146212F0E510034C82E /* DKNetworkConfig.m */,
 			);
 			path = Consts;
 			sourceTree = "<group>";
@@ -404,6 +527,8 @@
 		1BDAC123212EEA7F0034C82E /* Networks */ = {
 			isa = PBXGroup;
 			children = (
+				1BDAC142212F0C680034C82E /* DKNetwork.h */,
+				1BDAC143212F0C680034C82E /* DKNetwork.m */,
 			);
 			path = Networks;
 			sourceTree = "<group>";
@@ -420,6 +545,16 @@
 			children = (
 			);
 			path = Venders;
+			sourceTree = "<group>";
+		};
+		1BDAC15D212F19410034C82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0E1212EC46F0034C82E /* Info.plist */,
+				1BDAC0E2212EC46F0034C82E /* main.m */,
+				1B3B88BA212F19BD00B952E2 /* DKProject.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DA97B7F5F94562432FA14A97 /* Pods */ = {
@@ -497,7 +632,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B89A97F212F23EA00503858 /* Login.storyboard in Resources */,
 				1BDAC0E0212EC46F0034C82E /* LaunchScreen.storyboard in Resources */,
+				1B89A97D212F23D900503858 /* Login.xcassets in Resources */,
+				1B89A989212F25B200503858 /* Home.storyboard in Resources */,
+				1B89A987212F25A500503858 /* Home.xcassets in Resources */,
 				1BDAC0F3212EE7060034C82E /* Public.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,8 +669,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B89A97B212F20DF00503858 /* DKLoginRequest.m in Sources */,
+				1BDAC13A212EFEFB0034C82E /* BaseModel.m in Sources */,
+				1BDAC14A212F114A0034C82E /* DKNotification.m in Sources */,
+				1BDAC155212F14660034C82E /* DKHelper.m in Sources */,
+				1BDAC13D212F02B50034C82E /* RequestService.m in Sources */,
+				1BDAC12B212EF5410034C82E /* AppPushService.m in Sources */,
+				1B89A98F212F264300503858 /* DKHomeInfoRequest.m in Sources */,
+				1BDAC134212EF8F20034C82E /* BaseNavigationController.m in Sources */,
+				1B89A982212F257000503858 /* DKHomeInfoModel.m in Sources */,
+				1BDAC137212EF91B0034C82E /* BaseWebViewController.m in Sources */,
+				1B89A98C212F25CC00503858 /* HomeViewController.m in Sources */,
+				1BDAC12E212EF8040034C82E /* BaseViewController.m in Sources */,
 				1BDAC0E3212EC46F0034C82E /* main.m in Sources */,
+				1BDAC158212F16ED0034C82E /* DKCryptor.m in Sources */,
+				1BDAC147212F0E510034C82E /* DKNetworkConfig.m in Sources */,
 				1BDAC0D5212EC46F0034C82E /* AppDelegate.m in Sources */,
+				1BDAC15B212F17EA0034C82E /* DKEncryptTool.m in Sources */,
+				1B89A975212F1D2800503858 /* DKUserModel.m in Sources */,
+				1BDAC131212EF8880034C82E /* BaseTabBarController.m in Sources */,
+				1B89A978212F208300503858 /* LoginViewController.m in Sources */,
+				1BDAC128212EF4CC0034C82E /* AppCoreService.m in Sources */,
+				1B89A972212F1C2B00503858 /* DKUserManager.m in Sources */,
+				1BDAC144212F0C680034C82E /* DKNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +826,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LA3YNDBNC;
+				GCC_PREFIX_HEADER = DKProject/DKProject.pch;
 				INFOPLIST_FILE = DKProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -685,6 +846,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LA3YNDBNC;
+				GCC_PREFIX_HEADER = DKProject/DKProject.pch;
 				INFOPLIST_FILE = DKProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
