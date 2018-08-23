@@ -14,7 +14,7 @@
     -- BaseClass 存放一些基础类,如: 
         - BaseViewController  基础视图控制器,项目中的所有视图控制器都应该继承它
         - BaseModel  基础model,项目中的所有model都应该继承它
-        - RequestService  网络请求服务,此处用到了第三方SDK: YTKNetwork
+        - RequestService  网络请求服务,此处在第三方库YTKNetwork基础上进行了进一步的封装
     
     -- Modules  存放业务模块相关的代码,每个模块分五个文件夹: 
         - Controllers 存放视图控制器类; 
