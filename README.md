@@ -6,7 +6,8 @@
 
 -- Classes    存放所有的类文件
     
-    -- Application  存放启动相关的类,如AppDelegate等. 为了减轻AppDelegate的入口压力,为AppDelegate创建了两个分类: 
+    -- Application  存放启动相关的类,如AppDelegate等. 为了减轻AppDelegate的入口压力,
+        为AppDelegate创建了两个分类: 
       - AppCoreService 主要处理一些主要的窗口创建内容, 
       - AppPushService 处理推送相关的内容,也可以根据业务需要创建更多的分类
     
@@ -28,8 +29,10 @@
     -- Expands  存放一些常用的扩展类:
         - Categories 存放常用的类别; 
         - Networks 存放网络请求相关的类, 如: DKNetwork 用于处理网络请求; 
-        - Consts 存放一些公用的常量 如: DKNotification 处理项目中一些通知相关的常量, DKNetworkConfig 处理网络请求接口相关的常量;  
-        - Macros 存放项目中通用的宏 如: DKPublicMacros 提供了一些常用的便利宏, DKDisplayMacros 用于存放一些全局的界面显示相关的宏
+        - Consts 存放一些公用的常量 如: DKNotification 处理项目中一些通知相关的常量, 
+                 DKNetworkConfig 处理网络请求接口相关的常量;  
+        - Macros 存放项目中通用的宏 如: DKPublicMacros 提供了一些常用的便利宏, 
+                 DKDisplayMacros 用于存放一些全局的界面显示相关的宏
         - Tools 工具类,如: 加密工具 DKCryptor, DKEncryptTool
         - Controls 存放一些通用的自定义控件
         - DataBase 存放数据库相关的类
