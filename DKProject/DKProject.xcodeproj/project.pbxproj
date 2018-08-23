@@ -9,24 +9,19 @@
 /* Begin PBXBuildFile section */
 		005964B6885F4BA30B179A15 /* libPods-DKProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C25702FFD496F0295E4E811B /* libPods-DKProject.a */; };
 		1BDAC0D5212EC46F0034C82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC0D4212EC46F0034C82E /* AppDelegate.m */; };
-		1BDAC0D8212EC46F0034C82E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC0D7212EC46F0034C82E /* ViewController.m */; };
-		1BDAC0DB212EC46F0034C82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0D9212EC46F0034C82E /* Main.storyboard */; };
-		1BDAC0DD212EC46F0034C82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0DC212EC46F0034C82E /* Assets.xcassets */; };
 		1BDAC0E0212EC46F0034C82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */; };
 		1BDAC0E3212EC46F0034C82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDAC0E2212EC46F0034C82E /* main.m */; };
+		1BDAC0F3212EE7060034C82E /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAC0F2212EE7060034C82E /* Public.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BDAC0D0212EC46F0034C82E /* DKProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDAC0D3212EC46F0034C82E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BDAC0D4212EC46F0034C82E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1BDAC0D6212EC46F0034C82E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1BDAC0D7212EC46F0034C82E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1BDAC0DA212EC46F0034C82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BDAC0DC212EC46F0034C82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDAC0DF212EC46F0034C82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDAC0E1212EC46F0034C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDAC0E2212EC46F0034C82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BDAC0F2212EE7060034C82E /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
 		2B562970BC752ACC6E275954 /* Pods-DKProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKProject/Pods-DKProject.release.xcconfig"; sourceTree = "<group>"; };
 		6FAAABE7C603B44BDEF2733D /* Pods-DKProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKProject/Pods-DKProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C25702FFD496F0295E4E811B /* libPods-DKProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,17 +60,366 @@
 		1BDAC0D2212EC46F0034C82E /* DKProject */ = {
 			isa = PBXGroup;
 			children = (
-				1BDAC0D3212EC46F0034C82E /* AppDelegate.h */,
-				1BDAC0D4212EC46F0034C82E /* AppDelegate.m */,
-				1BDAC0D6212EC46F0034C82E /* ViewController.h */,
-				1BDAC0D7212EC46F0034C82E /* ViewController.m */,
-				1BDAC0D9212EC46F0034C82E /* Main.storyboard */,
-				1BDAC0DC212EC46F0034C82E /* Assets.xcassets */,
-				1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */,
+				1BDAC0E9212EE4C20034C82E /* Classes */,
+				1BDAC0EA212EE4DB0034C82E /* Resources */,
 				1BDAC0E1212EC46F0034C82E /* Info.plist */,
 				1BDAC0E2212EC46F0034C82E /* main.m */,
 			);
 			path = DKProject;
+			sourceTree = "<group>";
+		};
+		1BDAC0E9212EE4C20034C82E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0EB212EE4F70034C82E /* Application */,
+				1BDAC0F4212EE7710034C82E /* BaseClass */,
+				1BDAC0F9212EE8510034C82E /* Modules */,
+				1BDAC11B212EE9BA0034C82E /* Managers */,
+				1BDAC11C212EE9FC0034C82E /* Expands */,
+				1BDAC125212EEAAC0034C82E /* Venders */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1BDAC0EA212EE4DB0034C82E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0EC212EE63F0034C82E /* Atlases */,
+				1BDAC0ED212EE6590034C82E /* WebFiles */,
+				1BDAC0EE212EE6690034C82E /* Images */,
+				1BDAC0EF212EE6730034C82E /* Plists */,
+				1BDAC0F1212EE6890034C82E /* Videos */,
+				1BDAC0F0212EE6820034C82E /* Audios */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BDAC0EB212EE4F70034C82E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0D3212EC46F0034C82E /* AppDelegate.h */,
+				1BDAC0D4212EC46F0034C82E /* AppDelegate.m */,
+				1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1BDAC0EC212EE63F0034C82E /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0F2212EE7060034C82E /* Public.xcassets */,
+			);
+			path = Atlases;
+			sourceTree = "<group>";
+		};
+		1BDAC0ED212EE6590034C82E /* WebFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebFiles;
+			sourceTree = "<group>";
+		};
+		1BDAC0EE212EE6690034C82E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1BDAC0EF212EE6730034C82E /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		1BDAC0F0212EE6820034C82E /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		1BDAC0F1212EE6890034C82E /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		1BDAC0F4212EE7710034C82E /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0F5212EE7BB0034C82E /* BaseControllers */,
+				1BDAC0F6212EE7D60034C82E /* BaseViews */,
+				1BDAC0F7212EE7EB0034C82E /* BaseModels */,
+				1BDAC0F8212EE80D0034C82E /* BaseServices */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		1BDAC0F5212EE7BB0034C82E /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		1BDAC0F6212EE7D60034C82E /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		1BDAC0F7212EE7EB0034C82E /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		1BDAC0F8212EE80D0034C82E /* BaseServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseServices;
+			sourceTree = "<group>";
+		};
+		1BDAC0F9212EE8510034C82E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC0FC212EE8810034C82E /* Public */,
+				1BDAC0FB212EE87A0034C82E /* Login */,
+				1BDAC0FA212EE8700034C82E /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1BDAC0FA212EE8700034C82E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC119212EE9930034C82E /* Controllers */,
+				1BDAC117212EE9930034C82E /* Models */,
+				1BDAC11A212EE9930034C82E /* Views */,
+				1BDAC115212EE9930034C82E /* Services */,
+				1BDAC118212EE9930034C82E /* Resouces */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1BDAC0FB212EE87A0034C82E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC10F212EE9600034C82E /* Controllers */,
+				1BDAC113212EE9600034C82E /* Models */,
+				1BDAC110212EE9600034C82E /* Views */,
+				1BDAC114212EE9600034C82E /* Services */,
+				1BDAC111212EE9600034C82E /* Resouces */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1BDAC0FC212EE8810034C82E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC109212EE93B0034C82E /* Controllers */,
+				1BDAC10C212EE93B0034C82E /* Models */,
+				1BDAC10E212EE93B0034C82E /* Views */,
+				1BDAC10D212EE93B0034C82E /* Services */,
+				1BDAC10B212EE93B0034C82E /* Resouces */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1BDAC109212EE93B0034C82E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1BDAC10B212EE93B0034C82E /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		1BDAC10C212EE93B0034C82E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BDAC10D212EE93B0034C82E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDAC10E212EE93B0034C82E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BDAC10F212EE9600034C82E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1BDAC110212EE9600034C82E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BDAC111212EE9600034C82E /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		1BDAC113212EE9600034C82E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BDAC114212EE9600034C82E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDAC115212EE9930034C82E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BDAC117212EE9930034C82E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BDAC118212EE9930034C82E /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		1BDAC119212EE9930034C82E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1BDAC11A212EE9930034C82E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BDAC11B212EE9BA0034C82E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1BDAC11C212EE9FC0034C82E /* Expands */ = {
+			isa = PBXGroup;
+			children = (
+				1BDAC124212EEA8D0034C82E /* Categories */,
+				1BDAC123212EEA7F0034C82E /* Networks */,
+				1BDAC122212EEA710034C82E /* Consts */,
+				1BDAC121212EEA5F0034C82E /* Macros */,
+				1BDAC120212EEA540034C82E /* Tools */,
+				1BDAC11F212EEA230034C82E /* Controls */,
+				1BDAC11E212EEA110034C82E /* DataBase */,
+				1BDAC11D212EEA080034C82E /* Helpers */,
+			);
+			path = Expands;
+			sourceTree = "<group>";
+		};
+		1BDAC11D212EEA080034C82E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1BDAC11E212EEA110034C82E /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		1BDAC11F212EEA230034C82E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		1BDAC120212EEA540034C82E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1BDAC121212EEA5F0034C82E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1BDAC122212EEA710034C82E /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
+		1BDAC123212EEA7F0034C82E /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		1BDAC124212EEA8D0034C82E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1BDAC125212EEAAC0034C82E /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
 			sourceTree = "<group>";
 		};
 		DA97B7F5F94562432FA14A97 /* Pods */ = {
@@ -154,8 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDAC0E0212EC46F0034C82E /* LaunchScreen.storyboard in Resources */,
-				1BDAC0DD212EC46F0034C82E /* Assets.xcassets in Resources */,
-				1BDAC0DB212EC46F0034C82E /* Main.storyboard in Resources */,
+				1BDAC0F3212EE7060034C82E /* Public.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +530,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDAC0D8212EC46F0034C82E /* ViewController.m in Sources */,
 				1BDAC0E3212EC46F0034C82E /* main.m in Sources */,
 				1BDAC0D5212EC46F0034C82E /* AppDelegate.m in Sources */,
 			);
@@ -196,14 +538,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BDAC0D9212EC46F0034C82E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BDAC0DA212EC46F0034C82E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BDAC0DE212EC46F0034C82E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,7 +674,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = butterfly.xueling.com.DKProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,7 +693,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = butterfly.xueling.com.DKProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
